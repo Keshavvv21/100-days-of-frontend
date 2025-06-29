@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Login Form</title>
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #4e54c8, #8f94fb);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-container {
+        background-color: white;
+        padding: 2.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 1.2rem;
+    }
+
+    .form-group label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        transition: border 0.2s;
+    }
+
+    .form-group input:focus {
+        border-color: #4e54c8;
+        outline: none;
+    }
+
+    .login-btn {
+        width: 100%;
+        padding: 0.8rem;
+        background-color: #4e54c8;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .login-btn:hover {
+        background-color: #3b41b1;
+    }
+
+    .extra-links {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .extra-links a {
+        color: #4e54c8;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+    .extra-links a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 500px) {
+        .login-container {
+            padding: 2rem 1.5rem;
+        }
+    }
+</style>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example" required />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required />
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <div class="extra-links">
+                <p><a href="#">Forgot password</a></p>
+                <p>Dont have an account?<a href="#">Sign up</a></p>
+            </div>
+
+        </form>
+    </div>
+
+</html>
+</body>
