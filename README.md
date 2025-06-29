@@ -49,123 +49,289 @@ Welcome to your personal 100-day coding challenge to master frontend development
 
 ### ⚙️ Phase 2: JavaScript Core (Days 21–40)
 
+## 📅 Roadmap
+
 | Day | Task |
 |-----|------|
-| 21 | Recreate `map()` Function |
-| 22 | Sum with `reduce()` |
-| 23 | Real-Time Search Filter |
-| 24 | Debounce Input Field |
-| 25 | Digital Clock |
-| 26 | Todo List with DOM + LocalStorage |
-| 27 | Form Validation Logic |
-| 28 | Counter with + / - Buttons |
-| 29 | Tab Switcher |
-| 30 | Accordion |
-| 31 | Image Carousel |
-| 32 | Fetch API Users List |
-| 33 | Quiz App with Score |
-| 34 | Recreate `filter()` |
-| 35 | Chain `map()`, `filter()`, `reduce()` |
-| 36 | Sortable Table Columns |
-| 37 | Drag & Drop UI |
-| 38 | Countdown Timer |
-| 39 | Sticky Notes App |
-| 40 | Typewriter Text Effect |
+| 21  | 🔁 **Recreate `map()`** – Implement your own version of `Array.prototype.map()` |
+| 22  | ➕ **Sum with `reduce()`** – Calculate totals, flatten arrays, or summarize data |
+| 23  | 🔍 **Real-Time Search Filter** – Use `filter()` and `includes()` to search a list |
+| 24  | ⏳ **Debounce Input Field** – Use closures to prevent frequent re-renders |
+| 25  | ⏰ **Digital Clock** – Use `setInterval()` to update time every second |
+| 26  | ✅ **Todo List with LocalStorage** – Use DOM manipulation and `localStorage` |
+| 27  | 🔐 **Form Validation Logic** – Create reusable validation using RegEx and functions |
+| 28  | ➕➖ **Counter with Buttons** – Stateful component using JS functions and DOM events |
+| 29  | 🧩 **Tab Switcher** – Use `querySelectorAll` and `forEach()` to switch views |
+| 30  | 📂 **Accordion Component** – Expand/collapse items using class toggling and event listeners |
+| 31  | 🔍 **DOM Selectors Playground** – Practice `getElementById`, `querySelectorAll`, `.classList` |
+| 32  | 🏷️ **Build Dynamic List App** – Add/remove list items manually using DOM methods |
+| 33  | 📋 **Form Handler** – Capture input, validate, and show a summary without reload |
+| 34  | 🔄 **Recreate `filter()`** – Manually implement how `.filter()` works |
+| 35  | 🔗 **Chain `map()`, `filter()`, `reduce()`** – Cleanly transform and display API data |
+| 36  | 📊 **Sortable Table Columns** – Use `sort()` to sort a table based on clicked column |
+| 37  | 🧲 **Drag & Drop UI** – Rearrange items between containers using HTML5 DnD API |
+| 38  | ⏳ **Countdown Timer** – Set a deadline and update time remaining |
+| 39  | 📝 **Sticky Notes App** – Make draggable, editable notes stored in `localStorage` |
+| 40  | 🔡 **Typewriter Text Effect** – Animate text using recursion + `setTimeout()` |
+| 41  | 🔒 **Closures + Private State App** – Build a private counter or score tracker using closures |
+| 42  | ⌛ **Promises + Delay Utility** – Write a `delay(ms)` function using Promises and chain `.then()` |
+| 43  | 🌐 **Retry API Calls with async/await** – Implement retry logic using async functions + exponential backoff |
+| 44  | 🧠 **Visual Event Loop Playground** – Build a console-based app showing task queue execution order (`setTimeout`, Promises, sync, microtasks) |
 
 ---
 
-### ⚛️ Phase 3: React Basics (Days 41–60)
+
+---
+
+# ⚛️ Phase 3: React Basics (Days 45–68)
+
+## 🔰 Core React (Days 45–64)
 
 | Day | Task |
 |-----|------|
-| 41 | Setup React with Vite |
-| 42 | Create Functional Component |
-| 43 | `useState` Counter |
-| 44 | `useEffect` API Fetch |
-| 45 | React Todo App |
-| 46 | Conditional Rendering |
-| 47 | Controlled Form Input |
-| 48 | Passing Props |
-| 49 | Lifting State Up |
-| 50 | Rendering List with Keys |
-| 51 | Show/Hide Components |
-| 52 | Theme Toggle with State |
-| 53 | Cleanup in `useEffect` |
-| 54 | Reusable Button Component |
-| 55 | Simulate `componentDidMount` |
-| 56 | Fragment vs `div` |
-| 57 | FAQ Accordion |
-| 58 | React Events |
-| 59 | Render List with `map()` |
-| 60 | Ternary Conditional Rendering |
+| 45 | Setup React with Vite |
+| 46 | Create Functional Component |
+| 47 | `useState` Counter |
+| 48 | `useEffect` API Fetch |
+| 49 | React Todo App |
+| 50 | Conditional Rendering |
+| 51 | Controlled Form Input |
+| 52 | Passing Props |
+| 53 | Lifting State Up |
+| 54 | Rendering List with Keys |
+| 55 | Show/Hide Components |
+| 56 | Theme Toggle with State |
+| 57 | Cleanup in `useEffect` |
+| 58 | Reusable Button Component |
+| 59 | Simulate `componentDidMount` |
+| 60 | Fragment vs `div` |
+| 61 | FAQ Accordion |
+| 62 | React Events |
+| 63 | Render List with `map()` |
+| 64 | Ternary Conditional Rendering |
+
+---
+
+## 🧠 Advanced Concepts for Machine Coding (Days 65–68)
+
+| Day | Task |
+|-----|------|
+| 65 | **Virtual DOM Deep Dive**  
+- What is the Virtual DOM?  
+- How React compares it (diffing)  
+- Why it improves performance |
+| 66 | **React Internals & Lifecycle**  
+- Fiber architecture  
+- Render vs Commit phases  
+- Mounting, updating, unmounting |
+| 67 | **React Render Cycle**  
+- What triggers re-renders  
+- How React batches updates  
+- Preventing unnecessary renders |
+| 68 | **Optimize React for Machine Coding**  
+- `React.memo`, `useMemo`, `useCallback`  
+- Key usage and reconciliation  
+- Interview patterns (List rendering, prop drilling) |
+
+
 
 ---
 
 ### 🧠 Phase 4: React Advanced (Hooks + Custom) (Days 61–80)
 
+# 🧠 Phase 4: React Advanced (Hooks + API + Machine Coding) (Days 69–90)
+
+This phase targets **machine coding rounds** and **frontend system design** with reusable, testable components and patterns involving **hooks**, **API integration**, and **state management**.
+
 | Day | Task |
 |-----|------|
-| 61 | Custom Hook: `useLocalStorage` |
-| 62 | Custom Hook: `useToggle` |
-| 63 | Multi-Step Form |
-| 64 | `useReducer` Counter |
-| 65 | `useRef` for DOM Access |
-| 66 | `useMemo` List Optimization |
-| 67 | `useCallback` Example |
-| 68 | Lazy Load Components |
-| 69 | Error Boundaries |
-| 70 | Portals for Modal |
-| 71 | Theme Switcher with Context |
-| 72 | React Router: 2-Page App |
-| 73 | Custom Hook for API Fetch |
-| 74 | Manual Form Validation |
-| 75 | Reusable Dropdown |
-| 76 | `useEffect` Dependency Array |
-| 77 | Pagination Logic |
-| 78 | Modal + Backdrop UI |
-| 79 | Toggle Switch Component |
-| 80 | Reusable Input with Validation |
+| 69  | Custom Hook: `useLocalStorage`  
+- Store theme/token/settings persistently  
+- Add fallback/default logic |
+| 70  | Custom Hook: `useToggle`  
+- Show/hide UI sections, FAQs, modals  
+- Make it reusable with initial state |
+| 71  | Multi-Step Form with Local State  
+- Handle field validations, navigation  
+- Final review + submit stage |
+| 72  | `useReducer` for Form/Cart State  
+- Model complex UI logic like cart or survey  
+- Add reset and update actions |
+| 73  | `useRef` for Focus, DOM Control  
+- Auto-focus input, scroll to element  
+- Countdown timer using `setInterval` |
+| 74  | `useMemo` to Optimize Filtered List  
+- Render a large list with filtering  
+- Prevent re-renders |
+| 75  | `useCallback` for Event Handlers  
+- Expensive child components  
+- Stable props in deep trees |
+| 76  | Lazy Load Components (Code Splitting)  
+- Lazy load route-level components  
+- Show loading fallback |
+| 77  | Error Boundaries (Class Component)  
+- Catch rendering errors in subtree  
+- Fallback UI with retry option |
+| 78  | React Portals for Modal / Drawer  
+- Build modal outside DOM tree  
+- Click-outside & Escape key support |
+| 79  | Theme Switcher with React Context  
+- Dark/light mode switch  
+- Persist in localStorage |
+| 80  | React Router (v6) – Protected Routes  
+- Public vs protected page  
+- Redirect on auth failure |
+| 81  | Axios Setup + Global Interceptors  
+- Centralize base URL, token handling  
+- Global error/toast handler |
+| 82  | Axios CRUD (GET/POST/PUT/DELETE)  
+- Build product or notes API screen  
+- Handle loading, errors, empty states |
+| 83  | Custom `useAxios` Hook  
+- Reusable Axios wrapper  
+- Use `useEffect` + `AbortController` |
+| 84  | Form with API Submit + Validations  
+- Full client-side + backend validation  
+- Show field-level errors |
+| 85  | Reusable Dropdown from API  
+- Dynamic fetch on mount  
+- `onChange` callback with selected option |
+| 86  | `useEffect` Mastery with API Sync  
+- Cleanups, dependency traps  
+- Avoid infinite loops |
+| 87  | Pagination with API (Page/Limit)  
+- Prev/Next buttons  
+- Handle loading + edge cases |
+| 88  | Modal + Backdrop UI from Scratch  
+- Portal + state + Escape + outside click  
+- Reusable hook-driven logic |
+| 89  | Toggle Switch Component with `useReducer`  
+- Controlled/uncontrolled modes  
+- Accessibility support |
+| 90  | Reusable Input + Async API Validation  
+- Use case: Email/Username check  
+- Show spinner, debounce API call |
+
+
+---# 🧵 Phase 5: Redux + FANG-Style UI (Days 90–109)
+
+| Day | Task |
+|-----|------|
+| 90  | Setup Redux Toolkit + Project Structure  
+- Organize `store`, `slices`, `middleware`, `services`  
+- Type-safe setup with `createSlice` + TypeScript |
+| 91  | Redux Counter + Payload Customization  
+- Increment by dynamic value  
+- Reset, undo, and redo logic |
+| 92  | Redux Todo App with Filters  
+- Add, delete, toggle, and filter  
+- Persist to localStorage |
+| 93  | Redux + LocalStorage Sync Utility  
+- Create a utility to sync slices  
+- Add version control & fallback logic |
+| 94  | Custom Redux Middleware: Logger, Timer  
+- Log actions, duration, and payload  
+- Skip logging for specific action types |
+| 95  | Redux Theme Switcher + Context Interop  
+- Combine Redux and Context API  
+- Toggle + persist to localStorage |
+| 96  | Redux `createAsyncThunk` with Error States  
+- API: fetch users/posts  
+- Handle `loading`, `error`, `idle` states |
+| 97  | Global Error Handling + Toast Middleware  
+- Catch API failures globally  
+- Show toast/alert from middleware |
+| 98  | Redux DevTools & Time Travel Debugging  
+- Set up with extension  
+- Enable debugging with `redux-logger` |
+| 99  | Facebook-style Comment System (Nested Redux State)  
+- Nested replies using normalized state  
+- Like/edit/delete with optimistic updates |
+| 100 | Gmail-style Multi-Select Checkbox Grid  
+- Shift + click to select range  
+- Redux slice to track selected items |
+| 101 | Pinterest-style Masonry Feed  
+- Infinite scroll with API  
+- Save, like, or hide items |
+| 102 | Trello-style Kanban Board  
+- Drag-and-drop columns and cards  
+- Local/Redux sync + reordering logic |
+| 103 | Spotify-style Song Playlist  
+- Add/remove tracks, reorder  
+- Async loading and buffering states |
+| 104 | Amazon-style Cart with Redux  
+- Complex price breakdown  
+- Discount engine + saved for later |
+| 105 | YouTube-style Video Player UI  
+- Mini-player toggle, progress bar  
+- Redux for play/pause and playlist |
+| 106 | Instagram-style Story Viewer  
+- Timer-based next/prev  
+- Seen/unseen tracking in Redux |
+| 107 | Netflix-style Carousel + Watchlist  
+- Responsive horizontal scroll  
+- Redux-driven favorites |
+| 108 | WhatsApp-style Chat List + Typing Status  
+- Typing indicator from Redux  
+- Recent chat reordering logic |
+| 109 | Uber-style Ride Selector + Pricing  
+- Select location, ride type  
+- Redux for fare calculation and surge |
+
+
+
 
 ---
 
-### 🧵 Phase 5: Redux + FANG-Style UI (Days 81–90)
+# 🏗️ Phase 6: Frontend System Design (Days 110–114)
 
-| Day | Task |
-|-----|------|
-| 81 | Setup Redux Toolkit |
-| 82 | Redux Counter |
-| 83 | Redux Todo App |
-| 84 | Redux + LocalStorage |
-| 85 | Custom Middleware Logger |
-| 86 | Redux Theme Switcher |
-| 87 | Redux API Fetch with `createAsyncThunk` |
-| 88 | Redux DevTools Integration |
-| 89 | Facebook Comment UI |
-| 90 | Gmail Multi-Select Checkbox |
-
----
-
-### 🏗️ Phase 6: Frontend System Design (Days 91–95)
-
-| Day | Task |
-|-----|------|
-| 91 | 📖 Read: Netflix Frontend Architecture |
-| 92 | 🛠️ Implement: Lazy Loading with Suspense |
-| 93 | 📖 Read: Design Figma (Real-Time Collaboration) |
-| 94 | 🛠️ Implement: Shared Cursor Component |
-| 95 | 📝 Write: Design YouTube Home Page (component layout + lazy load strategy) |
+| Day  | Task |
+|------|------|
+| 110  | 📖 Read: Netflix Frontend Architecture  
+- Understand micro frontends, server-side rendering, prefetch strategies  
+- Notes on scalability, CDN, and page split loading |
+| 111  | 🛠️ Implement: Lazy Loading with Suspense  
+- Setup route-based code splitting using `React.lazy` and `Suspense`  
+- Add fallback UI and test with large components |
+| 112  | 📖 Read: Figma’s Real-Time Collaboration Architecture  
+- Explore CRDTs (Conflict-free Replicated Data Types)  
+- Understand cursor sync, presence, operational transforms |
+| 113  | 🛠️ Implement: Shared Cursor Component  
+- Build a shared-cursor experience using React and WebSocket  
+- Use `useRef`, `mousemove`, and broadcast cursor updates |
+| 114  | 📝 Write: Frontend Design for YouTube Home Page  
+- Sketch component layout (Sidebar, MainFeed, VideoCard)  
+- Include data fetching strategy, lazy loading, infinite scroll, and skeletons |
 
 ---
 
-### 🤖 Phase 7: ML + Frontend Integration (Days 96–100)
+# 🤖 Phase 7: ML + Frontend Integration (Days 115–120)
 
-| Day | Task |
-|-----|------|
-| 96 | 📖 Read: ML in UI – Recommendations, Personalization |
-| 97 | 🛠️ Implement: Autocomplete Search with Fake API |
-| 98 | 📖 Read: Spotify’s ML UX (recommendations, filtering) |
-| 99 | 🛠️ Implement: Personalized "Recommended For You" UI |
-| 100 | 🛠️ Implement: Sentiment Analyzer UI with mock ML result |
+| Day  | Task |
+|------|------|
+| 115  | 📖 Read: ML in UI – Recommendations, Personalization  
+- How ML powers UI at Netflix, LinkedIn, Amazon  
+- Common UI strategies: collaborative filtering, AB testing, ranking |
+| 116  | 🛠️ Implement: Autocomplete Search with Fake API  
+- Debounced input using `useEffect` + `setTimeout`  
+- Fetch from static list or mock API  
+- Highlight search matches |
+| 117  | 📖 Read: Spotify’s ML UX Design  
+- Explore user modeling and re-ranking  
+- Understand “discovery” vs “familiarity” in ML-driven UX |
+| 118  | 🛠️ Implement: "Recommended For You" Feed  
+- Simulate recommendation logic based on category selection  
+- React state + filter logic + fallback UX |
+| 119  | 🛠️ Implement: Sentiment Analyzer UI  
+- Input box + async call to mock ML sentiment API  
+- Show emojis/colors based on result (positive/neutral/negative) |
+| 120  | 🚀 Capstone: ML Dashboard UI + Modular Components  
+- Build a dashboard with:  
+  - Recent searches  
+  - Recommended content  
+  - Sentiment trend (chart or list)  
+- Modularize into components  
+- Bonus: Add light/dark mode & persist last state |
 
 ---
 
