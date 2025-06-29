@@ -139,142 +139,112 @@ Welcome to your personal 100-day coding challenge to master frontend development
 
 # 🧠 Phase 4: React Advanced (Hooks + API + Machine Coding) (Days 69–90)
 
+# ⚛️ Phase 4: React Advanced + API Integration + Machine Coding Patterns (Days 69–90)
+
 This phase targets **machine coding rounds** and **frontend system design** with reusable, testable components and patterns involving **hooks**, **API integration**, and **state management**.
+
+## 📅 Daily Breakdown
 
 | Day | Task |
 |-----|------|
-| 69  | Custom Hook: `useLocalStorage`  
-- Store theme/token/settings persistently  
-- Add fallback/default logic |
-| 70  | Custom Hook: `useToggle`  
-- Show/hide UI sections, FAQs, modals  
-- Make it reusable with initial state |
-| 71  | Multi-Step Form with Local State  
-- Handle field validations, navigation  
-- Final review + submit stage |
-| 72  | `useReducer` for Form/Cart State  
-- Model complex UI logic like cart or survey  
-- Add reset and update actions |
-| 73  | `useRef` for Focus, DOM Control  
-- Auto-focus input, scroll to element  
-- Countdown timer using `setInterval` |
-| 74  | `useMemo` to Optimize Filtered List  
-- Render a large list with filtering  
-- Prevent re-renders |
-| 75  | `useCallback` for Event Handlers  
-- Expensive child components  
-- Stable props in deep trees |
-| 76  | Lazy Load Components (Code Splitting)  
-- Lazy load route-level components  
-- Show loading fallback |
-| 77  | Error Boundaries (Class Component)  
-- Catch rendering errors in subtree  
-- Fallback UI with retry option |
-| 78  | React Portals for Modal / Drawer  
-- Build modal outside DOM tree  
-- Click-outside & Escape key support |
-| 79  | Theme Switcher with React Context  
-- Dark/light mode switch  
-- Persist in localStorage |
-| 80  | React Router (v6) – Protected Routes  
-- Public vs protected page  
-- Redirect on auth failure |
-| 81  | Axios Setup + Global Interceptors  
-- Centralize base URL, token handling  
-- Global error/toast handler |
-| 82  | Axios CRUD (GET/POST/PUT/DELETE)  
-- Build product or notes API screen  
-- Handle loading, errors, empty states |
-| 83  | Custom `useAxios` Hook  
-- Reusable Axios wrapper  
-- Use `useEffect` + `AbortController` |
-| 84  | Form with API Submit + Validations  
-- Full client-side + backend validation  
-- Show field-level errors |
-| 85  | Reusable Dropdown from API  
-- Dynamic fetch on mount  
-- `onChange` callback with selected option |
-| 86  | `useEffect` Mastery with API Sync  
-- Cleanups, dependency traps  
-- Avoid infinite loops |
-| 87  | Pagination with API (Page/Limit)  
-- Prev/Next buttons  
-- Handle loading + edge cases |
-| 88  | Modal + Backdrop UI from Scratch  
-- Portal + state + Escape + outside click  
-- Reusable hook-driven logic |
-| 89  | Toggle Switch Component with `useReducer`  
-- Controlled/uncontrolled modes  
-- Accessibility support |
-| 90  | Reusable Input + Async API Validation  
-- Use case: Email/Username check  
-- Show spinner, debounce API call |
+| **69**  | 🛠️ Custom Hook: `useLocalStorage`  
+Store theme/token/settings persistently. Add fallback/default logic. |
+| **70**  | 🛠️ Custom Hook: `useToggle`  
+Show/hide UI sections (FAQs, modals). Make reusable with initial state. |
+| **71**  | 🧱 Multi-Step Form with Local State  
+Handle field validations and navigation. Final review + submit stage. |
+| **72**  | ⚙️ `useReducer` for Form/Cart State  
+Model complex UI logic like cart or survey. Add reset/update actions. |
+| **73**  | 👁️ `useRef` for Focus, DOM Control  
+Auto-focus input, scroll to element. Timer with `setInterval`. |
+| **74**  | ⚡ `useMemo` to Optimize Filtered List  
+Render large lists with filtering. Prevent re-renders. |
+| **75**  | 🔁 `useCallback` for Event Handlers  
+Optimize deep trees. Pass stable handlers to expensive child components. |
+| **76**  | 💤 Lazy Load Components (Code Splitting)  
+Use `React.lazy` + `Suspense`. Add fallback loader. |
+| **77**  | ❗ Error Boundaries (Class Component)  
+Catch rendering errors. Fallback UI with retry. |
+| **78**  | 🌀 React Portals for Modal/Drawer  
+Render outside main DOM. Click-outside + Escape key support. |
+| **79**  | 🎨 Theme Switcher with React Context  
+Light/dark mode. Persist preference in localStorage. |
+| **80**  | 🛡️ React Router (v6) – Protected Routes  
+Handle public/protected routes. Redirect on auth failure. |
+| **81**  | 🔧 Axios Setup + Global Interceptors  
+Centralize base URL/token. Add global error/toast handling. |
+| **82**  | 📡 Axios CRUD (GET/POST/PUT/DELETE)  
+Build notes/product UI. Handle loading/error/empty states. |
+| **83**  | 🪝 Custom `useAxios` Hook  
+Reusable API hook using `useEffect` + `AbortController`. |
+| **84**  | 📄 Form with API Submit + Validations  
+Client + backend validation. Show field-level errors. |
+| **85**  | 🔽 Reusable Dropdown from API  
+Fetch options on mount. Add `onChange` callback + default value. |
+| **86**  | 🔁 `useEffect` Mastery with API Sync  
+Avoid infinite loops. Handle cleanup, dependency arrays. |
+| **87**  | 📖 Pagination with API (Page/Limit)  
+Paginated list with Prev/Next. Handle edge cases. |
+| **88**  | 🧩 Modal + Backdrop UI from Scratch  
+Hook-based logic. Escape + click-outside support. |
+| **89**  | 🪗 Toggle Switch with `useReducer`  
+Controlled/uncontrolled switch. Accessibility-ready. |
+| **90**  | ✅ Reusable Input + Async API Validation  
+Check email/username. Debounce input. Show spinner + error state. |
+
 
 
 # 🧵 Phase 5: Redux + FANG-Style UI (Days 90–109)
 
+# 🧵 Phase 5: Redux + FANG-Style UI Machine Coding (Days 90–109)
+
+This phase is designed to build **real-world, scalable UIs using Redux Toolkit**, ideal for **FAANG-style machine coding interviews**. You'll work with advanced patterns like **middleware**, **optimistic updates**, **component normalization**, and **UI architecture** based on modern products.
+
+## 📅 Daily Breakdown
+
 | Day | Task |
 |-----|------|
-| 90  | Setup Redux Toolkit + Project Structure  
-- Organize `store`, `slices`, `middleware`, `services`  
-- Type-safe setup with `createSlice` + TypeScript |
-| 91  | Redux Counter + Payload Customization  
-- Increment by dynamic value  
-- Reset, undo, and redo logic |
-| 92  | Redux Todo App with Filters  
-- Add, delete, toggle, and filter  
-- Persist to localStorage |
-| 93  | Redux + LocalStorage Sync Utility  
-- Create a utility to sync slices  
-- Add version control & fallback logic |
-| 94  | Custom Redux Middleware: Logger, Timer  
-- Log actions, duration, and payload  
-- Skip logging for specific action types |
-| 95  | Redux Theme Switcher + Context Interop  
-- Combine Redux and Context API  
-- Toggle + persist to localStorage |
-| 96  | Redux `createAsyncThunk` with Error States  
-- API: fetch users/posts  
-- Handle `loading`, `error`, `idle` states |
-| 97  | Global Error Handling + Toast Middleware  
-- Catch API failures globally  
-- Show toast/alert from middleware |
-| 98  | Redux DevTools & Time Travel Debugging  
-- Set up with extension  
-- Enable debugging with `redux-logger` |
-| 99  | Facebook-style Comment System (Nested Redux State)  
-- Nested replies using normalized state  
-- Like/edit/delete with optimistic updates |
-| 100 | Gmail-style Multi-Select Checkbox Grid  
-- Shift + click to select range  
-- Redux slice to track selected items |
-| 101 | Pinterest-style Masonry Feed  
-- Infinite scroll with API  
-- Save, like, or hide items |
-| 102 | Trello-style Kanban Board  
-- Drag-and-drop columns and cards  
-- Local/Redux sync + reordering logic |
-| 103 | Spotify-style Song Playlist  
-- Add/remove tracks, reorder  
-- Async loading and buffering states |
-| 104 | Amazon-style Cart with Redux  
-- Complex price breakdown  
-- Discount engine + saved for later |
-| 105 | YouTube-style Video Player UI  
-- Mini-player toggle, progress bar  
-- Redux for play/pause and playlist |
-| 106 | Instagram-style Story Viewer  
-- Timer-based next/prev  
-- Seen/unseen tracking in Redux |
-| 107 | Netflix-style Carousel + Watchlist  
-- Responsive horizontal scroll  
-- Redux-driven favorites |
-| 108 | WhatsApp-style Chat List + Typing Status  
-- Typing indicator from Redux  
-- Recent chat reordering logic |
-| 109 | Uber-style Ride Selector + Pricing  
-- Select location, ride type  
-- Redux for fare calculation and surge |
+| **90**  | 🛠️ Setup Redux Toolkit + Project Structure  
+Organize `store`, `slices`, `middleware`, and `services`. Type-safe setup using `createSlice` with TypeScript. |
+| **91**  | ➕ Redux Counter + Payload Customization  
+Dynamic increment by value. Add reset, undo, and redo functionality. |
+| **92**  | ✅ Redux Todo App with Filters  
+Add/delete/toggle tasks. Filter by status. Persist to localStorage. |
+| **93**  | 🔁 Redux + LocalStorage Sync Utility  
+Create reusable sync utility. Add versioning and fallback handling. |
+| **94**  | 🧩 Custom Redux Middleware: Logger + Timer  
+Log actions, duration, and payloads. Skip specific action types. |
+| **95**  | 🌙 Redux Theme Switcher + Context Interop  
+Combine Context + Redux for theme management. Sync to localStorage. |
+| **96**  | 🔄 Redux `createAsyncThunk` + Error States  
+Handle async API fetches (users/posts) with `loading`, `error`, `idle` states. |
+| **97**  | 🚨 Global Error Handling + Toast Middleware  
+Catch API errors. Show toasts or alerts via middleware interceptors. |
+| **98**  | 🧪 Redux DevTools + Time Travel Debugging  
+Integrate Redux DevTools. Enable logging with `redux-logger`. |
+| **99**  | 💬 Facebook-style Comment System  
+Nested replies using normalized Redux state. Support like/edit/delete with optimistic updates. |
+| **100** | ✅ Gmail-style Multi-Select Checkbox Grid  
+Shift + click range selection. Use Redux slice to track checked items. |
+| **101** | 📌 Pinterest-style Masonry Feed  
+Infinite scroll with lazy load. Support save, hide, like features. |
+| **102** | 📋 Trello-style Kanban Board  
+Drag-and-drop cards + columns. Sync order using Redux. |
+| **103** | 🎧 Spotify-style Song Playlist  
+Add/remove/reorder songs. Simulate async loading + buffering states. |
+| **104** | 🛒 Amazon-style Cart with Redux  
+Cart state with item breakdown, discounts, and "save for later". |
+| **105** | 📺 YouTube-style Video Player UI  
+Mini-player toggle, progress bar. Playlist state using Redux. |
+| **106** | 📸 Instagram-style Story Viewer  
+Auto-play next, seen/unseen tracking, story timer with Redux. |
+| **107** | 🎞️ Netflix-style Carousel + Watchlist  
+Responsive scrollable cards. Redux-powered favorites + lazy loading. |
+| **108** | 🟢 WhatsApp-style Chat List + Typing Status  
+Typing indicators via Redux. Chat ordering by last message timestamp. |
+| **109** | 🚗 Uber-style Ride Selector + Pricing  
+Select ride type/location. Calculate fare/surge using Redux logic. |
+
 
 
 
