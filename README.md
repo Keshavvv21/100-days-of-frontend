@@ -137,8 +137,6 @@ Welcome to your personal 100-day coding challenge to master frontend development
 
 ---
 
-### 🧠 Phase 4: React Advanced (Hooks + Custom) (Days 61–80)
-
 # 🧠 Phase 4: React Advanced (Hooks + API + Machine Coding) (Days 69–90)
 
 This phase targets **machine coding rounds** and **frontend system design** with reusable, testable components and patterns involving **hooks**, **API integration**, and **state management**.
@@ -213,7 +211,7 @@ This phase targets **machine coding rounds** and **frontend system design** with
 - Show spinner, debounce API call |
 
 
----# 🧵 Phase 5: Redux + FANG-Style UI (Days 90–109)
+# 🧵 Phase 5: Redux + FANG-Style UI (Days 90–109)
 
 | Day | Task |
 |-----|------|
@@ -305,33 +303,78 @@ This phase targets **machine coding rounds** and **frontend system design** with
 
 ---
 
-# 🤖 Phase 7: ML + Frontend Integration (Days 115–120)
+# 🧱 Phase 7: Frontend System Design Patterns (Days 115–125)
 
 | Day  | Task |
 |------|------|
-| 115  | 📖 Read: ML in UI – Recommendations, Personalization  
-- How ML powers UI at Netflix, LinkedIn, Amazon  
-- Common UI strategies: collaborative filtering, AB testing, ranking |
-| 116  | 🛠️ Implement: Autocomplete Search with Fake API  
-- Debounced input using `useEffect` + `setTimeout`  
-- Fetch from static list or mock API  
-- Highlight search matches |
-| 117  | 📖 Read: Spotify’s ML UX Design  
-- Explore user modeling and re-ranking  
-- Understand “discovery” vs “familiarity” in ML-driven UX |
-| 118  | 🛠️ Implement: "Recommended For You" Feed  
-- Simulate recommendation logic based on category selection  
-- React state + filter logic + fallback UX |
-| 119  | 🛠️ Implement: Sentiment Analyzer UI  
-- Input box + async call to mock ML sentiment API  
-- Show emojis/colors based on result (positive/neutral/negative) |
-| 120  | 🚀 Capstone: ML Dashboard UI + Modular Components  
-- Build a dashboard with:  
-  - Recent searches  
-  - Recommended content  
-  - Sentiment trend (chart or list)  
-- Modularize into components  
-- Bonus: Add light/dark mode & persist last state |
+| 115 | 📖 Read: GraphQL vs REST in Frontend Architecture  
+- Understand overfetching vs underfetching  
+- Compare REST, GraphQL, gRPC  
+- When to use Apollo Client |
+| 116 | 🛠️ Implement: GraphQL UI with Apollo Client  
+- Use public GraphQL API (e.g. countries)  
+- Create search, filter, pagination  
+- Show loading/error states |
+| 117 | 🛠️ Implement: WebSocket-based Live Chat  
+- Use `socket.io-client` or native WebSockets  
+- Real-time chat UI + online status indicator |
+| 118 | 📖 Read: gRPC for Frontend – When and Why  
+- How gRPC is used in native/Electron apps  
+- Intro to `grpc-web` + protobuf |
+| 119 | 🛠️ Implement: Micro Frontends with Module Federation  
+- Split React app into independent MFEs  
+- Use Webpack 5 + lazy-loaded routes |
+| 120 | 📖 Read: MQTT for IoT Dashboards  
+- Learn how MQTT works in pub-sub systems  
+- Compare with WebSockets & polling |
+| 121 | 🛠️ Implement: MQTT-like Simulated IoT UI  
+- Use `mqtt.js` with HiveMQ broker or mock data  
+- Live temperature/humidity updates |
+| 122 | 📖 Read: Server-Sent Events (SSE)  
+- Understand one-way push from server  
+- Compare with WebSockets |
+| 123 | 🛠️ Implement: SSE-Based Notification Feed  
+- Setup mock backend using Express  
+- Auto-update UI when new data arrives |
+| 124 | 📖 Read: CDN, Edge Caching, and Frontend Scalability  
+- How CDNs (Cloudflare, Akamai) work  
+- Use cases: static assets, SSR HTML caching |
+| 125 | 🛠️ Implement: Resilient UI with Service Workers + Retry  
+- Cache fallback for offline mode  
+- Retry failed API requests with exponential backoff |
+
+
+
+# 🤖 Phase 8: ML + Frontend Integration + Facebook-Style Machine Coding (Days 126–131)
+
+| Day  | Task |
+|------|------|
+| 126 | 📖 Read: ML in UI – Recommendations, Personalization  
+- How ML powers UI at Netflix, LinkedIn, YouTube  
+- UX strategies: AB testing, collaborative filtering, personalization loops  
+- Design notes: What changes in UI based on ML feedback |
+| 127 | 🛠️ Build: Facebook-Style Autocomplete Search (Debounced + Highlighted)  
+- Debounced input (`useEffect` + `setTimeout`)  
+- Fetch suggestions from a mock API or static dataset  
+- Highlight matched text, show loading skeleton |
+| 128 | 📖 Read: Spotify’s ML UX + Re-Ranking  
+- Learn how user behavior reorders feed content  
+- Understand real-time signals and feedback loops |
+| 129 | 🛠️ Implement: "Recommended For You" Feed with Preference Tuning  
+- Create a personalized homepage UI  
+- User interaction affects feed (likes, skips, saves)  
+- Persist preferences in state/localStorage |
+| 130 | 🛠️ Implement: Sentiment Analyzer UI with Confidence Meter  
+- Text input + mock API to detect sentiment  
+- Render emoji, color, and confidence progress bar  
+- Simulate async behavior and error state |
+| 131 | 🚀 Capstone: ML-Powered Dashboard (FB News Feed Style)  
+- Combine:  
+  - Search history  
+  - Personalized feed  
+  - Sentiment tracker (mini chart)  
+- Show active user, real-time like toggle (mocked)  
+- Add modular components, lazy load, light/dark toggle |
 
 ---
 
